@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Quiz-cards/static/css/main.712d069f.css",
+    "main.js": "/Quiz-cards/static/js/main.34f19c99.js",
+    "static/media/default_cat_ava.png": "/Quiz-cards/static/media/default_cat_ava.3948fa2f9f953f52d799.png",
+    "static/media/snorlax2.png": "/Quiz-cards/static/media/snorlax2.a9bdb40533b705530286.png",
+    "static/media/snorlax.png": "/Quiz-cards/static/media/snorlax.eaff114f59ab58b57e92.png",
+    "static/media/img_1.png": "/Quiz-cards/static/media/img_1.4746c30b4a429def8e4f.png",
+    "static/media/pikachu.gif": "/Quiz-cards/static/media/pikachu.09b000564c077bf0e360.gif",
+    "index.html": "/Quiz-cards/index.html",
+    "static/media/ArrowBackIcon.svg": "/Quiz-cards/static/media/ArrowBackIcon.54207b2980736812c0f011c2eaf8478a.svg",
+    "main.712d069f.css.map": "/Quiz-cards/static/css/main.712d069f.css.map",
+    "main.34f19c99.js.map": "/Quiz-cards/static/js/main.34f19c99.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.712d069f.css",
+    "static/js/main.34f19c99.js"
+  ]
+}

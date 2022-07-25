@@ -1,0 +1,188 @@
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: red 1px solid;
+}
+
+.leftContainer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 220px;
+    height: 85vh;
+    padding: 10px 20px 10px 10px;
+    border: greenyellow 1px solid;
+}
+
+.sideBox {
+
+}
+
+.rightContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 85vh;
+    padding: 10px 10px 10px 20px;
+    border: blue 1px solid;
+    justify-content: space-between;
+}
+
+.paginationBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.findContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin: 10px 0px 10px 0px;
+    padding: 0 10px;
+}
+
+.spanCreatedBy {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: -30px 0px 10px 0px;
+
+}
+
+.button1 {
+    width: 300px;
+}
+
+.input {
+    max-width: 100%;
+    height: 35px;
+    font-size: large;
+    margin-left: 10px;
+}
+
+.table {
+    min-width: 90%;
+    border-collapse: collapse;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.thead {
+    position: sticky;
+    z-index: 100;
+
+}
+
+.trHead {
+
+
+}
+
+.th {
+    padding: 5px;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: aquamarine;
+    width: 25%;
+}
+.thDate {
+    padding: 5px;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: aquamarine;
+    width: 15%;
+}
+.thGrade {
+    padding: 5px;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: aquamarine;
+    width: 15%;
+}
+.thButtons {
+    padding: 5px;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: aquamarine;
+    width: 20%;
+}
+
+.trBody {
+    position: sticky;
+    z-index: 100;
+    background: white;
+    /*border: #97d9ff 1px solid;*/
+}
+
+.trItem {
+
+}
+.trItem:hover {
+    background-color: #aaaaaa;
+}
+
+.td {
+    padding: 5px;
+    /*border: 1px solid;*/
+    font-size: 14px;
+}
+
+.tdButtons {
+    width: 20%;
+}
+.tdGrade {
+    width: 15%;
+}
+.tdDate {
+    width: 15%;
+}
+.delButton {
+    background-color: tomato;
+    border: 1px white;
+    border-radius: 2px;
+    margin: 1px 1px 1px 1px;
+}
+.delButton:hover {
+    color: white;
+    background-color: red;
+}
+
+.editButton {
+    background-color: greenyellow;
+    border: 0 white;
+    border-radius: 2px;
+    margin: 1px 1px 1px 1px;
+}
+.editButton:hover {
+    color: white;
+    background-color: green;
+}
+.learnButton {
+    background-color: cornflowerblue;
+    border: 0 white;
+    border-radius: 2px;
+    margin: 1px 1px 1px 1px;
+}
+.learnButton:hover {
+    color: white;
+    background-color: #21268F;
+}

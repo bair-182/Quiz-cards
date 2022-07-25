@@ -1,0 +1,26 @@
+.ChooseOwner{
+    margin-bottom: 45px;
+}
+.Choose__button{
+    height: 36px;
+    width: 100px;
+    font-family: 'SFUIDisplayRegular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    background-color: #fff;
+    border: none;
+&:hover{
+     box-shadow: 0px 4px 18px rgba(9, 42, 97, 0.72), inset 0px 1px 0px rgba(255, 255, 255, 0.3);
+
+ }
+}
+.Choose__text{
+    margin-bottom: 20px;
+}
+
+.active {
+//background-color: #D9D9F1;
+    background-color: #21268F;
+    color: white;
+}

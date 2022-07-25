@@ -1,0 +1,166 @@
+.initCompnentWrapper {
+    background: #F9F9FE;
+    width: 413px;
+    padding: 25px 33px 26px 33px;
+    text-align: center;
+    /*margin: auto;*/
+    border-radius: 8px;
+    margin: 11vh auto 1%;
+}
+
+
+.title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    color: #092A61;
+    margin-bottom: 32px;
+}
+.signIn {
+    background: #F9F9FE;
+    width: 413px;
+    padding: 25px 33px 26px 33px;
+    text-align: center;
+    margin: auto;
+    border-radius: 8px;
+}
+.loginLabel{
+
+    font-family: 'SFUIDisplayRegular', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color:rgba(36, 37, 74, 0.5);
+    text-align: left;
+}
+.loginLabel:first-child {
+    margin-top: 24px;
+}
+.Input {
+    width: 347px;
+    /*height: 48px;*/
+    align-items: center;
+    color: #092A61;
+    border: none;
+    /*background-color: inherit;*/
+    background-color: #F9F9FE;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #092A61;
+    /*margin-bottom: 15px;*/
+    padding: 5px;
+}
+
+.subtitle {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #2D2E46;
+}
+.CheckBoxLabel{
+    font-family: 'SFUIDisplayRegular', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color:rgb(0, 0, 2);
+}
+.PasswordWrapper{
+    text-align: left;
+}
+
+
+.formBox {
+    display: flex;
+    flex-direction: column;
+    margin-top: 38px;
+}
+
+.CheckBoxWrapper{
+    display: flex;
+    align-items:baseline;
+}
+
+.linkTransparent {
+    width: 139px;
+    height: 40px;
+    font-family: "SFUIDisplay-Regular";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #475358;
+    opacity: 0.7;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    background-color: inherit;
+    margin-left: 210px;
+    cursor: pointer;
+}
+
+.btnBlue {
+    background: #092A61;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #ECECF9;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 266px;
+    max-width: 70%;
+    height: 36px;
+    font-family: "SFUIDisplay-Medium";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-top: 80px;
+    box-shadow: 0px 4px 18px rgba(33, 38, 143, 0.35), inset 0px 1px 0px rgba(255, 255, 255, 0.3);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.btnBlue:disabled{
+    opacity: 0.6;
+}
+
+.btnBlue:hover {
+    background: #0c418e;
+}
+
+
+.linkWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textLight {
+    text-align: center;
+    color: #475358;
+    opacity: 0.7;
+    /*font-family: "SFUIDisplay-Semibold";*/
+    font-family: SFUIDisplayMedium;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    margin-bottom: 7px;
+}
+
+.linkBlue {
+    text-align: center;
+    color: #092A61;
+    font-family: "SFUIDisplay-Semibold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+}

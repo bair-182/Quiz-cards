@@ -1,0 +1,38 @@
+
+.authContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+
+  border: 1px solid green;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.authContainer img {
+  max-width: 150px;
+  height: 150px;
+  /*position: relative;*/
+  /*top:-70px;*/
+}
+
+
+.input {
+  float: right;
+  margin: 5px 0px;
+  width: 200px;
+}
+
+.clear {
+  clear: both;
+}
+
+.checkboxContainer {
+  display: flex;
+  flex-direction: row;
+}

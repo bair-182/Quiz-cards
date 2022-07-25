@@ -1,0 +1,198 @@
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    /*border: red 1px solid;*/
+}
+
+.leftContainer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 220px;
+    height: 85vh;
+    padding: 10px 10px 10px 10px;
+    /*border: greenyellow 1px solid;*/
+}
+
+.sideBox {
+    text-align: center
+}
+
+.rightContainer {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    /*height: 85vh;*/
+    padding: 10px 10px 10px 10px;
+    /*border: blue 1px solid;*/
+    justify-content: space-between;
+}
+
+.paginationBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.findContainer {
+    display: flex;
+    /*width: 50%;*/
+    padding: 0 10px;
+    /*flex-direction: row;*/
+    justify-content: space-between;
+    align-items: center;
+    /*align-content: center;*/
+    margin: 10px 0 10px 0;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    min-width: 60%;
+    /*height: 35px;*/
+    font-size: large;
+    margin-left: 10px;
+    transform: translateY(3px);
+}
+
+.input input:focus {
+    box-shadow: none;
+}
+
+.clearButton:hover {
+    color: tomato;
+}
+
+
+.tableBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table {
+    width: 99%;
+    border-collapse: collapse;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.thead {
+    position: sticky;
+    z-index: 99;
+
+}
+
+.trHead {
+
+
+}
+
+.th {
+    padding: 5px;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 14px;
+    /*border: blueviolet 1px solid;*/
+    background-color: aquamarine;
+}
+
+.trBody {
+    position: sticky;
+    z-index: 100;
+    background: white;
+    /*border: #97d9ff 1px solid;*/
+}
+
+.trItem {
+
+}
+
+.trItem:hover {
+    background-color: #aaaaaa;
+}
+
+.td {
+    max-width: 300px;
+    overflow: hidden;
+    padding: 5px;
+    /*border: 1px solid;*/
+    font-size: 14px;
+}
+
+.tdButtons {
+    width: 20%;
+}
+.tdTotalCards {
+    width: 15%;
+}
+.tdDate {
+    width: 15%;
+}
+.tdCreatedBy {
+    width: 15%;
+}
+
+.tdButtons {
+    padding: 5px;
+    /*border: 1px solid;*/
+    font-size: 14px;
+}
+
+.delButton {
+    background-color: tomato;
+    border: 1px white;
+    border-radius: 2px;
+    margin: 1px 1px 1px 1px;
+}
+
+.delButton:hover {
+    color: white;
+    background-color: red;
+}
+
+.editButton {
+    background-color: greenyellow;
+    border: 0 white;
+    border-radius: 2px;
+    margin: 1px 1px 1px 1px;
+}
+
+.editButton:hover {
+    color: white;
+    background-color: green;
+}
+
+.learnButton {
+    background-color: cornflowerblue;
+    border: 0 white;
+    border-radius: 2px;
+    margin: 1px 1px 1px 1px;
+}
+
+.learnButton:hover {
+    color: white;
+    background-color: #21268F;
+}
+.learnButton:disabled {
+    color: black;
+    background-color: #aaaaaa;
+    opacity: 70%;
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: #f1f1f1;
+}

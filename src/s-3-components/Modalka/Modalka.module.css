@@ -1,0 +1,60 @@
+.modalka {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.2s;
+}
+.modalkaActive {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.2s;
+}
+
+
+.modalka__content {
+    padding: 20px;
+    border-radius: 12px;
+    background-color: white;
+    width: 50vh;
+    transform: scale(0.5);
+    transition: 0.3s all;
+}
+
+.modalka__contentActive {
+    padding: 20px;
+    border-radius: 12px;
+    background-color: white;
+    width: 50vh;
+    transform: scale(1);
+    transition: 0.3s all;
+}
+
+.modalkaChildren {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}

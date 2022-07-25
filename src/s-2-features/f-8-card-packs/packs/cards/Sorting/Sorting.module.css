@@ -1,0 +1,125 @@
+.sortingPage {
+    text-align: center;
+    padding-top: 30px;
+
+}
+.sortingItemsWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 150px;
+    margin-top: 10px;
+    align-items: center;
+}
+.resetSortingFilter {
+    opacity: 0.8;
+    font-size: 14px;
+    cursor: pointer;
+}
+.resetSortingFilter:hover {
+    color: #092a61;
+    opacity: 1;
+    /*text-decoration: underline dotted;*/
+}
+
+.openDivStyles {
+    position: relative;
+}
+.filter__btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 32px;
+    width: 155px;
+    padding: 0 10px 0 14px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    color: #232326;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 32px;
+
+}
+
+.filterIcon_img {
+    border-radius: 50%;
+    width: 17px;
+    transform: rotate(90deg);
+}
+
+.filterIcon_imgOpened {
+    border-radius: 50%;
+    width: 17px;
+    transform: rotate(-90deg);
+}
+.onBlurStyle {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+.sortingUl {
+    list-style: none;
+    margin: 0;
+    padding-left: 0
+}
+.dropdown {
+    position: absolute;
+    z-index: 10;
+    /*left: 9%;*/
+    min-width: 155px;
+    padding: 16px;
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 0 16px rgb(56 62 79 / 25%);
+}
+.dropdownItem {
+
+}
+
+.dropdownItem:hover {
+    text-shadow: 1px 1px 1px #092a61;
+}
+
+.chosenButtonBackground {
+    background-color: #D9D9F1;
+}
+
+.resetSortingButton {
+    background: #21268F;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #ECECF9;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 225px;
+    max-width: 70%;
+    height: 32px;
+    font-family: "SFUIDisplay-Medium";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 18px rgba(33, 38, 143, 0.35), inset 0px 1px 0px rgba(255, 255, 255, 0.3);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.resetSortingButton:disabled{
+    opacity: 0.6;
+}
+
+.resetSortingButton:hover {
+    background: #0e138f;
+}

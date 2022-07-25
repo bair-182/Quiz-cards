@@ -1,3 +1,7 @@
+# ABOUT
+This project was created for self-learning something. You can create a decks, fill it with questions, and self-teach it. Smart sorting of questions will make sure that you often receive those questions that you have not learned well.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
